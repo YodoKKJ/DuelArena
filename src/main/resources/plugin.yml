@@ -1,0 +1,20 @@
+name: DuelArena
+version: 1.0.0
+main: com.brunobeduschi.duelarena.DuelArenaPlugin
+description: Sistema de duelos 1v1 com kits, contagem regressiva e placar
+author: BrunoBeduschi
+api-version: '26.1.2'
+
+commands:
+  duel:
+    description: Desafia outro jogador para um duelo
+    usage: /duel <jogador|accept|deny|top|stats>
+  arena:
+    description: Gerencia arenas de duelo
+    usage: /arena <create|setspawn1|setspawn2|setbounds1|setbounds2|remove|list> <nome>
+    permission: duelarena.admin
+
+permissions:
+  duelarena.admin:
+    description: Permite gerenciar arenas de duelo
+    default: op

@@ -1,0 +1,22 @@
+default-kit: guerreiro
+
+kits:
+  guerreiro:
+    items:
+      0:
+        material: IRON_SWORD
+        amount: 1
+      1:
+        material: BOW
+        amount: 1
+      2:
+        material: ARROW
+        amount: 32
+      8:
+        material: COOKED_BEEF
+        amount: 16
+    armor:
+      helmet: IRON_HELMET
+      chestplate: IRON_CHESTPLATE
+      leggings: IRON_LEGGINGS
+      boots: IRON_BOOTS
